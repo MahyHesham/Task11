@@ -1,0 +1,33 @@
+.body{
+width: 1700px;
+height: 1000px;
+background-image: url(business-2.jpg);
+background-color: blue;
+}
+
+
+
+.body ul{
+
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: grey;
+  float: right;
+}
+
+.body li {
+    float: left;
+  }
+  
+    li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+  }
+
+/*to make the colour changes when the user click on it*/
+  li a:hover {
+    background-color: #111;
+  }
